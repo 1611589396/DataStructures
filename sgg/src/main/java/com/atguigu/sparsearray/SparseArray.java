@@ -1,5 +1,13 @@
 package com.atguigu.sparsearray;
 
+/**
+ * 什么是稀疏数组？稀疏数组详解：https://blog.csdn.net/sunnyzyq/article/details/116763427
+ * 在Java中使用增强for循环遍历二维数组:https://blog.csdn.net/YMY_SZY/article/details/114933783
+ * 数组和二维数组:https://blog.csdn.net/maduan12/article/details/119536222
+ * java二维数组及遍历：https://blog.csdn.net/m0_69246524/article/details/124255968
+ * 【尚硅谷Java数据结构与算法】稀疏数组+课后习题https://blog.csdn.net/Ep_Little_prince/article/details/115180887
+ * @author myk
+ */
 public class SparseArray {
 
 	public static void main(String[] args) {
@@ -84,5 +92,4 @@ public class SparseArray {
 			System.out.println();
 		}
 	}
-
 }

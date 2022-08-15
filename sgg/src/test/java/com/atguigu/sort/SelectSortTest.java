@@ -2,11 +2,14 @@ package com.atguigu.sort;
 
 import org.junit.Test;
 
+import java.util.Arrays;
+
 public class SelectSortTest {
     @Test
     public void selectSort() {
         int arr[] = {101, 34, 119, 1};
         SelectSort.selectSort(arr);
+        System.out.println("Arrays.toString(arr) = " + Arrays.toString(arr));
     }
     @Test
     public void swap() {
